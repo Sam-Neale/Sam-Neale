@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi I'm Sam
+
+Im the developer of VACenter, IKSA, and other amazing communites and projects. I am trying to get into a good habit of React and Co. but have fallen victim to the beauty that is EJS. I'm, as stated, working on VACenter a crew center for Infinite Flight VA's, and IKSA, which is a KSP Rocket Group, with telemtry and rocket guidance.
 
 <!--
 **Sam-Neale/Sam-Neale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
