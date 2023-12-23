@@ -1,5 +1,21 @@
 <footer class="footer footer-center p-4 bg-base-100 text-base-content">
 <aside>
     <p>Copyright © <%= new Date().getFullYear() %> - All right reserved by Sam Neale</p>
+    <button class="btn btn-accent" onclick="my_modal_5.showModal()">Send me a Message</button>
+
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+            <h3 class="font-bold text-lg">Contact Me</h3>
+            <p class="py-4">
+                Reach out by sending an email: <a class="link link-primary" href="mailto:me@samneale.dev">me@samneale.dev</a>
+            </p>
+            <div class="modal-action">
+            <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn btn-accent">Close</button>
+            </form>
+            </div>
+        </div>
+    </dialog>
 </aside>
 </footer>
