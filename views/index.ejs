@@ -200,72 +200,20 @@
                   </div>
                 </div>
             </div>
+            <div class="hero min-h-screen" style="background-image: url('https://live.staticflickr.com/65535/53679083801_b9737c3239_o_d.jpg');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-xl">
+                    <h1 class="text-7xl mb-5 new-york" style="font-weight: 900;">📸 I Take Pictures</h1>
+                    <a href="https://www.flickr.com/photos/samneale/" class="btn btn-primary"><i class="bi bi-images"></i> Visit my flickr</a>
+                  </div>
+                </div>
+            </div>
             <%- include('includes/footer')%>
         </div> 
         <%- include('includes/drawer')%>
     </div>
     <%- include('includes/scripts')%>
-    <script>
-        const active = true;
-        if(active){
-            const heroTopLine = document.getElementById('heroTopLine')
-            const heroBottomLine = document.getElementById('heroBottomLine')
-
-            const topLine = "Hello, I'm"
-            const bottomLine = "Sam Neale"
-
-            let topLineIndex = 0
-            let bottomLineIndex = 0
-
-            let topLineWidth = heroTopLine.offsetWidth;
-            let bottomLineWidth = heroBottomLine.offsetWidth;
-
-            heroTopLine.style.width = (topLineWidth + ((topLineWidth / 100) * 25)) + "px";
-            heroBottomLine.style.width = (bottomLineWidth + ((bottomLineWidth / 100) * 25)) + "px";
-
-            heroTopLine.innerHTML = "";
-            heroBottomLine.innerHTML = "";
-
-            let topLineDone = false;
-            let allDone = false;
-
-            let flipFlop = false;
-
-            let delay = 10;
-
-            let ticker = setInterval(()=>{
-                if(flipFlop){
-                    flipFlop = false;
-                    if(topLineIndex < topLine.length){
-                        heroTopLine.innerHTML += topLine[topLineIndex]
-                        topLineIndex++
-                    } else {
-                        topLineDone = true
-                    }
-                }else{
-                    flipFlop = true
-                }
-                
-                console.log(delay)
-                if(delay == 0 && topLineDone == true && bottomLineIndex < bottomLine.length){
-                    heroBottomLine.innerHTML += bottomLine[bottomLineIndex]
-                    bottomLineIndex++
-                } else {
-                    if(topLineDone && bottomLineIndex >= bottomLine.length){
-                        allDone = true
-                    }
-                    
-                    if(topLineDone && delay != 0){
-                        delay --;
-                    }
-                }
-
-                if(allDone){
-                    console.log("CLEAR")
-                    clearInterval(ticker)
-                }
-            }, 50)
-        }
-    </script>
+    
 </body>
 </html>
