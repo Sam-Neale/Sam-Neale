@@ -20,6 +20,10 @@ app.get("/", (req, res) => {
     });
 });
 
+app.get("/photos", (req,res)=>{
+    res.redirect("https://www.flickr.com/photos/samneale/");
+})
+
 app.get("*", (req, res) => {
     res.redirect("/");
 });
