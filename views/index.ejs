@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="night" lang="en">
+<html data-theme="night" lang="en" style="width: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/public/css/fonts.css">
     <link rel="stylesheet" href="/public/css/imports.css">
 </head>
-<body>
-    <div class="drawer">
+<body style="width: 100%; overflow-x: hidden;">
+    <div class="drawer" style="width: 100%;">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content">
             <%-include('includes/navbar')%>
@@ -30,7 +30,11 @@
                   </div>
                 </div>
             </div>
-            <div class="hero min-h-screen" style="background-image: url('https://live.staticflickr.com/65535/53679083801_b9737c3239_o_d.jpg');">
+            <div class="hero min-h-screen" style="position: relative; overflow: hidden;">
+                <video autoplay loop muted style="height: 100%; width: 100%; object-fit: cover; position: absolute; left: 0; top:0; z-index: -4;"poster="https://live.staticflickr.com/65535/53763040694_43a5c3dac1_k_d.jpg">
+                    <source src="https://www.flickr.com/video_download.gne?id=53763097935" type="video/mp4" />
+                    <img src="https://live.staticflickr.com/65535/53679083801_b9737c3239_o_d.jpg" title="Your browser does not support the <video> tag" />
+                </video>
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-xl">
