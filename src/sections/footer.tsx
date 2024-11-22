@@ -1,7 +1,7 @@
 import React from "react";
 import wave from "./../assets/memojis/wave.png";
 //import bluesky from "./../assets/bluesky.svg";
-import { Github } from "react-bootstrap-icons";
+import { Github, Instagram } from "react-bootstrap-icons";
 
 function Footer() {
   return (
@@ -26,6 +26,9 @@ function Footer() {
         </a>
         <a href="https://github.com/sam-neale">
           <Github size={24} />
+        </a>
+        <a href="https://www.instagram.com/photo_soria/">
+          <Instagram size={24} />
         </a>
       </nav>
     </footer>
