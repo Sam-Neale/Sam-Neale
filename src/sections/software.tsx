@@ -1,4 +1,3 @@
-import React from "react";
 import Mac from "./../assets/memojis/mac.png";
 import { Github } from "react-bootstrap-icons";
 

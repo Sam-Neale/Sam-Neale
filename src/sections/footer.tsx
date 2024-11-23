@@ -1,4 +1,3 @@
-import React from "react";
 import wave from "./../assets/memojis/wave.png";
 //import bluesky from "./../assets/bluesky.svg";
 import { Github, Instagram } from "react-bootstrap-icons";
