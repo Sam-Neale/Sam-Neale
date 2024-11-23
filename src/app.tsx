@@ -1,19 +1,22 @@
 import "./app.css";
-import Hero from "./sections/hero";
-import Nav from "./sections/nav";
-import Software from "./sections/software";
-import Footer from "./sections/footer";
-import Flying from "./sections/flying";
+import { StaticRouter, Route, Routes } from "react-router-dom";
+import cover from "./cover";
+import projects from "./projects";
+import soria from "./soria";
 
 function App() {
   return (
-    <div className="bg-base-200" data-theme="retro">
-      <Nav active={null}></Nav>
-      <Hero></Hero>
-      <Software></Software>
-      <Flying></Flying>
-      <Footer></Footer>
-    </div>
+    <>
+      <StaticRouter location={window.location.pathname}>
+        <div>
+          <Routes>
+            <Route path="/" Component={cover} />
+            <Route path="/projects" Component={projects} />
+            <Route path="/soria" Component={soria} />
+          </Routes>
+        </div>
+      </StaticRouter>
+    </>
   );
 }
 
