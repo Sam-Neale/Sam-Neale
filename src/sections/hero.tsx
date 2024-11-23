@@ -1,4 +1,3 @@
-import React from "react";
 import wave from "./../assets/memojis/wave.png";
 
 function Hero() {

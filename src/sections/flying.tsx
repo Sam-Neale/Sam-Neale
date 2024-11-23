@@ -1,5 +1,3 @@
-import React from "react";
-
 import plane1 from "./../assets/planes/plane1.png";
 import plane2 from "./../assets/planes/plane2.png";
 import plane3 from "./../assets/planes/plane3.png";

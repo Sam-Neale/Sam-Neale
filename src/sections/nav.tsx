@@ -1,5 +1,3 @@
-import React from "react";
-
 function Nav({ active = null }: { active: string | null }) {
   return (
     <div className="navbar bg-base-100">
