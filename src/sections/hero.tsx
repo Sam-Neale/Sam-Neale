@@ -7,7 +7,7 @@ function Hero() {
         <img
           src={wave}
           alt="Memoji of Sam Neale"
-          className="max-w-sm rounded-lg"
+          className="md:max-w-sm rounded-lg max-w-full"
         />
         <div>
           <h1 className="text-5xl font-bold baskervville">
