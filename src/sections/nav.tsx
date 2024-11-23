@@ -1,7 +1,7 @@
 function Nav({ active = null }: { active: string | null }) {
   return (
     <div className="navbar bg-base-100">
-      <div className="navbar-start">
+      <div className="navbar-start hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a
@@ -25,6 +25,8 @@ function Nav({ active = null }: { active: string | null }) {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="navbar-center">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -47,26 +49,13 @@ function Nav({ active = null }: { active: string | null }) {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
+              <a href="/soria">Soria</a>
             </li>
           </ul>
         </div>
-      </div>
-      <div className="navbar-center hidden lg:flex">
         <a className="btn btn-ghost text-3xl baskervville" href="/">
           Sam Neale
         </a>
