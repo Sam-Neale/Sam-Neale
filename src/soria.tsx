@@ -32,12 +32,13 @@ function Soria() {
           </div>
         </div>
       </div>
-      <div
-        className="carousel w-full max-h-screen min-h-screen"
-        style={{ objectFit: "cover" }}
-      >
+      <div className="carousel w-full max-h-screen min-h-screen">
         <div id="slide1" className="carousel-item relative w-full">
-          <img src={image1} className="w-full" />
+          <img
+            src={image1}
+            className="w-full"
+            style={{ objectFit: "cover", objectPosition: "center" }}
+          />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle">
               ❮
@@ -48,7 +49,11 @@ function Soria() {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <img src={image2} className="w-full" />
+          <img
+            src={image2}
+            className="w-full"
+            style={{ objectFit: "cover", objectPosition: "center" }}
+          />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" className="btn btn-circle">
               ❮
@@ -59,7 +64,11 @@ function Soria() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-          <img src={image3} className="w-full" />
+          <img
+            src={image3}
+            className="w-full"
+            style={{ objectFit: "cover", objectPosition: "center" }}
+          />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" className="btn btn-circle">
               ❮
@@ -70,7 +79,11 @@ function Soria() {
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full">
-          <img src={image4} className="w-full" />
+          <img
+            src={image4}
+            className="w-full"
+            style={{ objectFit: "cover", objectPosition: "center" }}
+          />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle">
               ❮
