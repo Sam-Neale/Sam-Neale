@@ -5,7 +5,7 @@ import { Camera, Instagram } from "react-bootstrap-icons";
 import image1 from "./assets/soria/IMG_1689.jpeg";
 import image2 from "./assets/soria/IMG_2093.jpeg";
 import image3 from "./assets/soria/IMG_2160.jpeg";
-import image4 from "./assets/soria/IMG_2301.jpeg";
+import image4 from "./assets/soria/IMG_3919.jpeg";
 
 function Soria() {
   return (
