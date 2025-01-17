@@ -2,7 +2,7 @@ import "./app.css";
 import { StaticRouter, Route, Routes } from "react-router-dom";
 import cover from "./cover";
 import projects from "./projects";
-import soria from "./soria";
+import captured from "./captured";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Routes>
             <Route path="/" Component={cover} />
             <Route path="/projects" Component={projects} />
-            <Route path="/soria" Component={soria} />
+            <Route path="/captured" Component={captured} />
           </Routes>
         </div>
       </StaticRouter>

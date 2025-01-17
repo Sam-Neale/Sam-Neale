@@ -17,11 +17,12 @@ function Nav({ active = null }: { active: string | null }) {
           <li>
             <a
               className={
-                "inria-serif font-mediu " + (active == "soria" ? "active" : "")
+                "inria-serif font-mediu " +
+                (active == "captured" ? "active" : "")
               }
-              href="/soria"
+              href="/captured"
             >
-              Soria
+              Captured
             </a>
           </li>
         </ul>
@@ -52,7 +53,7 @@ function Nav({ active = null }: { active: string | null }) {
               <a href="/projects">Projects</a>
             </li>
             <li>
-              <a href="/soria">Soria</a>
+              <a href="/captured">Captured</a>
             </li>
           </ul>
         </div>

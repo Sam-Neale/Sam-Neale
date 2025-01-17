@@ -2,27 +2,29 @@ import "./app.css";
 import Nav from "./sections/nav";
 import Footer from "./sections/footer";
 import { Camera, Instagram } from "react-bootstrap-icons";
-import image1 from "./assets/soria/IMG_1689.jpeg";
-import image2 from "./assets/soria/IMG_2093.jpeg";
-import image3 from "./assets/soria/IMG_2160.jpeg";
-import image4 from "./assets/soria/IMG_3919.jpeg";
+import image1 from "./assets/captured/IMG_1689.jpeg";
+import image2 from "./assets/captured/IMG_4064.jpeg";
+import image3 from "./assets/captured/IMG_4063.jpeg";
+import image4 from "./assets/captured/IMG_3919.jpeg";
 
-function Soria() {
+function Captured() {
   return (
     <div className="bg-base-200" data-theme="retro">
-      <Nav active={"soria"}></Nav>
+      <Nav active={"captured"}></Nav>
       <div className="hero bg-base-200 py-12">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <Camera className="text-5xl mb-4 mx-auto" />
-            <h1 className="text-5xl font-bold baskervville">Soria</h1>
+            <h1 className="text-5xl font-bold baskervville">
+              Captured <span className="text-4xl font-normal">by Sam</span>
+            </h1>
             <p className="py-6">
-              Soria is my photography side project. I mostly post photos taken
-              from around Victoria, Australia, including my home city of
+              Captured is my photography side project. I mostly post photos
+              taken from around Victoria, Australia, including my home city of
               Melbourne.
             </p>
             <a
-              href="https://www.instagram.com/photo_soria/"
+              href="https://www.instagram.com/captured_by.sam/"
               className="btn btn-secondary"
             >
               <Instagram /> Follow me on Instagram
@@ -99,4 +101,4 @@ function Soria() {
   );
 }
 
-export default Soria;
+export default Captured;
