@@ -7,7 +7,7 @@ import Flying from "./sections/flying";
 
 function App() {
   return (
-    <div className="bg-base-200" data-theme="retro">
+    <div className="bg-base-300" data-theme="pastel">
       <Nav active={null}></Nav>
       <Hero></Hero>
       <Software></Software>

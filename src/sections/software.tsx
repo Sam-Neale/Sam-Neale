@@ -244,7 +244,7 @@ function Software() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white"
+                src="https://img.shields.io/badge/Xcode-007ACC.svg?style=for-the-badge&logo=Xcode&logoColor=white"
                 alt="Pizza"
               />
             </div>

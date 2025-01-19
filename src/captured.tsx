@@ -9,7 +9,7 @@ import image4 from "./assets/captured/IMG_3919.jpeg";
 
 function Captured() {
   return (
-    <div className="bg-base-200" data-theme="retro">
+    <div className="bg-base-200" data-theme="pastel">
       <Nav active={"captured"}></Nav>
       <div className="hero bg-base-200 py-12">
         <div className="hero-content text-center">

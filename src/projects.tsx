@@ -5,7 +5,7 @@ import { Tools, Github } from "react-bootstrap-icons";
 
 function Projects() {
   return (
-    <div className="bg-base-200" data-theme="retro">
+    <div className="bg-base-200" data-theme="pastel">
       <Nav active={"projects"}></Nav>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content text-center">

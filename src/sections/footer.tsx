@@ -4,10 +4,10 @@ import { Github, Instagram } from "react-bootstrap-icons";
 
 function Footer() {
   return (
-    <footer className="footer bg-neutral text-neutral-content items-center p-4">
+    <footer className="footer bg-base-100 text-base-content items-center p-4">
       <aside className="grid-flow-col items-center">
         <img width="36" height="36" className="fill-current" src={wave} />
-        <p>
+        <p className="font-mono">
           Copyright Sam Neale © {new Date().getFullYear()} - All right reserved
         </p>
       </aside>
