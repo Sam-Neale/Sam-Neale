@@ -7,7 +7,7 @@ function Software() {
       <div className="hero-content flex-col lg:flex-row">
         <img src={Mac} className="max-w-sm hidden lg:block rounded-lg" />
         <div className="lg:m-0">
-          <h1 className="text-7xl baskervville" style={{ fontWeight: 900 }}>
+          <h1 className="text-7xl font-mono" style={{ fontWeight: 900 }}>
             I Write Code
           </h1>
           <p></p>
@@ -15,13 +15,13 @@ function Software() {
           <a href="https://github.com/sam-neale" className="link">
             <div className="join">
               <Github size={24} />
-              <span className="px-3 inria-serif font-bold underline underline-offset-3">
+              <span className="px-3 font-mono font-bold underline underline-offset-3">
                 Visit My Github
               </span>
             </div>
           </a>
           <br />
-          <h3 className="text-lg font-bold">Languages</h3>
+          <h3 className="text-lg font-bold font-mono">Languages</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -62,7 +62,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">
+          <h3 className="text-lg font-bold font-mono">
             Frameworks, Platforms and Libraries
           </h3>
           <div className="carousel carousel-center rounded-box">
@@ -140,7 +140,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Browsers</h3>
+          <h3 className="text-lg font-bold font-mono">Browsers</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -156,7 +156,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Operating Systems</h3>
+          <h3 className="text-lg font-bold font-mono">Operating Systems</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -184,7 +184,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Hosting Providers</h3>
+          <h3 className="text-lg font-bold font-mono">Hosting Providers</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -206,7 +206,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Databases</h3>
+          <h3 className="text-lg font-bold font-mono">Databases</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -234,7 +234,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">IDEs</h3>
+          <h3 className="text-lg font-bold font-mono">IDEs</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -250,7 +250,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">ORMs</h3>
+          <h3 className="text-lg font-bold font-mono">ORMs</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -266,7 +266,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Version Control</h3>
+          <h3 className="text-lg font-bold font-mono">Version Control</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
@@ -288,7 +288,7 @@ function Software() {
             </div>
           </div>
           <br />
-          <h3 className="text-lg font-bold">Design Software</h3>
+          <h3 className="text-lg font-bold font-mono">Design Software</h3>
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img

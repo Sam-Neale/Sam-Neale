@@ -38,7 +38,7 @@ function Nav({ active = null }: { active: string | null }) {
             <li>
               <a
                 className={
-                  "inria-serif font-mediu " +
+                  "inria-serif font-medium " +
                   (active == "captured" ? "active" : "")
                 }
                 href="/captured"

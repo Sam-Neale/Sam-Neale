@@ -15,8 +15,9 @@ function Captured() {
         <div className="hero-content text-center">
           <div className="max-w-md">
             <Camera className="text-5xl mb-4 mx-auto" />
-            <h1 className="text-5xl font-bold baskervville">
-              Captured <span className="text-4xl font-normal">by Sam</span>
+            <h1 className="text-5xl font-bold montserrat">
+              Captured <br />
+              <span className="text-3xl font-normal">by Sam</span>
             </h1>
             <p className="py-6">
               Captured is my photography side project. I mostly post photos

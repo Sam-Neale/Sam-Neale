@@ -11,7 +11,7 @@ function Footer() {
           Copyright Sam Neale © {new Date().getFullYear()} - All right reserved
         </p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <nav className="grid-flow-col gap-9 md:gap-4 mb-5 md:mb-0 place-self-center md:justify-self-end">
         <a href="https://bsky.app/profile/samneale.dev">
           <svg
             xmlns="http://www.w3.org/2000/svg"
