@@ -89,7 +89,7 @@ function Nav({ active = null }: { active: string | null }) {
             Sam Neale
           </a>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end ml-auto">
           <button
             className="btn"
             onClick={() => {
