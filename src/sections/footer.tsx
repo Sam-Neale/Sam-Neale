@@ -26,7 +26,7 @@ function Footer() {
         <a href="https://github.com/sam-neale">
           <Github size={24} />
         </a>
-        <a href="https://www.instagram.com/photo_soria/">
+        <a href="https://www.flashes.blue/profile/samneale.dev">
           <CloudLightningFill size={24} />
         </a>
       </nav>
