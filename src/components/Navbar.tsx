@@ -1,5 +1,13 @@
 import { Camera, CodeSlash, EnvelopeAtFill } from "react-bootstrap-icons";
 
+function navigate(page: string, setPage: (page: string) => void) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("page", page);
+  window.history.pushState({}, "", url.toString());
+
+  setPage(page);
+}
+
 function Navbar(props: { page: string; setPage: (page: string) => void }) {
   return (
     <>
@@ -28,12 +36,18 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a onClick={() => props.setPage("projects")}>
+                <a
+                  className={props.page == "projects" ? "fw-bold" : ""}
+                  onClick={() => navigate("projects", props.setPage)}
+                >
                   <CodeSlash /> Projects
                 </a>
               </li>
               <li>
-                <a onClick={() => props.setPage("captured")}>
+                <a
+                  className={props.page == "captured" ? "fw-bold" : ""}
+                  onClick={() => navigate("captured", props.setPage)}
+                >
                   <Camera /> Captured
                 </a>
               </li>
@@ -42,12 +56,26 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
 
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a onClick={() => props.setPage("projects")}>
+              <a
+                className={
+                  props.page == "projects"
+                    ? "bg-neutral mx-2 text-neutral-content font-bold"
+                    : "mx-2"
+                }
+                onClick={() => navigate("projects", props.setPage)}
+              >
                 <CodeSlash /> Projects
               </a>
             </li>
             <li>
-              <a onClick={() => props.setPage("captured")}>
+              <a
+                className={
+                  props.page == "captured"
+                    ? "bg-neutral mx-2 text-neutral-content font-bold"
+                    : "mx-2"
+                }
+                onClick={() => navigate("captured", props.setPage)}
+              >
                 <Camera /> Captured
               </a>
             </li>
@@ -55,7 +83,7 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
         </div>
         <div className="navbar-center hidden lg:flex">
           <a
-            onClick={() => props.setPage("")}
+            onClick={() => navigate("", props.setPage)}
             className="btn btn-ghost text-3xl baskervville fw-bold"
           >
             Sam Neale
