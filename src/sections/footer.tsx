@@ -1,6 +1,6 @@
 import wave from "./../assets/memojis/wave.png";
 //import bluesky from "./../assets/bluesky.svg";
-import { Github, Instagram } from "react-bootstrap-icons";
+import { CloudLightningFill, Github } from "react-bootstrap-icons";
 
 function Footer() {
   return (
@@ -27,7 +27,7 @@ function Footer() {
           <Github size={24} />
         </a>
         <a href="https://www.instagram.com/photo_soria/">
-          <Instagram size={24} />
+          <CloudLightningFill size={24} />
         </a>
       </nav>
     </footer>

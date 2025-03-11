@@ -1,7 +1,7 @@
 import "./app.css";
 import Nav from "./sections/nav";
 import Footer from "./sections/footer";
-import { Camera, Instagram } from "react-bootstrap-icons";
+import { Camera, CloudLightningFill } from "react-bootstrap-icons";
 import image1 from "./assets/captured/IMG_1689.jpeg";
 import image2 from "./assets/captured/IMG_4064.jpeg";
 import image3 from "./assets/captured/IMG_4063.jpeg";
@@ -25,10 +25,11 @@ function Captured() {
               Melbourne.
             </p>
             <a
-              href="https://www.instagram.com/captured_by.sam/"
-              className="btn btn-secondary"
+              href="https://www.flashes.blue/profile/samneale.dev"
+              className="btn"
+              style={{ backgroundColor: "#1e3a8a", color: "white" }}
             >
-              <Instagram /> Follow me on Instagram
+              <CloudLightningFill /> Follow me on Flashes
             </a>
             <br />
             <br />
