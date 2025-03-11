@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./assets/styles/fonts.css";
-import "./App.css";
+import "./app.css";
 
 import Home from "./home/Main";
 import Projects from "./projects/Main";
