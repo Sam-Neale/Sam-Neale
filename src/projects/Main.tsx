@@ -4,7 +4,7 @@ import Project from "./Project";
 function Projects() {
   return (
     <>
-      <div className="hero bg-base-200 py-36">
+      <div className="hero bg-base-200 py-12 md:py-24 lg:py-36">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <Tools className="text-5xl mb-4 mx-auto"></Tools>
@@ -19,8 +19,8 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="bg-primary text-primary-content p-12 text-center">
-        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center">
+      <div className="bg-primary text-primary-content py-12 px-6 lg:px-12 text-center w-full">
+        <div className="grid gap-4 w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center">
           <Project
             title="React Loader Continued"
             description="Continued development of a React full page loading modal with spinners and random custom text."

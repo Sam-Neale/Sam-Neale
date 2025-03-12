@@ -7,14 +7,10 @@ function Project(props: {
   image: string | null;
 }) {
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card bg-base-100 w-auto shadow-sm">
       {props.image && (
         <figure className="px-10 pt-10">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
-            className="rounded-xl"
-          />
+          <img src={props.image} className="rounded-xl" />
         </figure>
       )}
       <div className="card-body items-center text-base-content text-center">

@@ -37,8 +37,6 @@ function App() {
       </div>
       <div className="grow bg-primary" style={{ overflowY: "auto" }}>
         <PageSelector page={page} />
-      </div>
-      <div className="flex-none">
         <Footer />
       </div>
     </div>

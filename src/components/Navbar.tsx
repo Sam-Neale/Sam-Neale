@@ -54,7 +54,7 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
             </ul>
           </div>
 
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu hidden lg:flex menu-horizontal px-1">
             <li>
               <a
                 className={
@@ -81,7 +81,7 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
             </li>
           </ul>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center ">
           <a
             onClick={() => navigate("", props.setPage)}
             className="btn btn-ghost text-3xl baskervville fw-bold"
@@ -99,7 +99,7 @@ function Navbar(props: { page: string; setPage: (page: string) => void }) {
             }
           >
             <EnvelopeAtFill />
-            Contact Me
+            <span className="hidden md:inline-block">Contact Me</span>
           </button>
         </div>
       </div>
