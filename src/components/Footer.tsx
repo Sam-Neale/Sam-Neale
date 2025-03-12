@@ -1,5 +1,5 @@
 import wave from "../assets/memojis/wave.png";
-import { Github, CloudLightningFill } from "react-bootstrap-icons";
+import { Github, CloudLightningFill, KeyFill } from "react-bootstrap-icons";
 
 function Footer() {
   return (
@@ -11,6 +11,10 @@ function Footer() {
         </p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a href="/pgpPublic.asc" className="italic">
+          <KeyFill size={24} className="inline-block me-1" />
+          PGP Public Key
+        </a>
         <a href="https://bsky.app/profile/samneale.dev">
           <svg
             xmlns="http://www.w3.org/2000/svg"
