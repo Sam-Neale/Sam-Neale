@@ -4,6 +4,7 @@ import image2 from "./../assets/captured/IMG_4064.jpeg";
 import image3 from "./../assets/captured/IMG_4063.jpeg";
 import image4 from "./../assets/captured/IMG_3919.jpeg";
 import image5 from "./../assets/captured/IMG_5308.jpeg";
+import image6 from "./../assets/captured/IMG_6008.jpeg";
 
 function Captured() {
 	return (
@@ -41,7 +42,7 @@ function Captured() {
 						style={{ objectFit: "cover", objectPosition: "center" }}
 					/>
 					<div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-						<a href="#slide4" className="btn btn-circle">
+						<a href="#slide6" className="btn btn-circle">
 							❮
 						</a>
 						<a href="#slide2" className="btn btn-circle">
@@ -102,6 +103,21 @@ function Captured() {
 					/>
 					<div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
 						<a href="#slide4" className="btn btn-circle">
+							❮
+						</a>
+						<a href="#slide6" className="btn btn-circle">
+							❯
+						</a>
+					</div>
+				</div>
+				<div id="slide6" className="carousel-item relative w-full">
+					<img
+						src={image6}
+						className="w-full"
+						style={{ objectFit: "cover", objectPosition: "center" }}
+					/>
+					<div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+						<a href="#slide5" className="btn btn-circle">
 							❮
 						</a>
 						<a href="#slide1" className="btn btn-circle">
