@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Tools, Github, BoxArrowUpRight } from "react-bootstrap-icons";
+import Seo from "@/components/Seo";
 
 type Project = {
 	title: string;
@@ -37,6 +38,11 @@ function StatusBadge({ status }: { status?: Project["status"] }) {
 export default function Projects() {
 	return (
 		<div>
+			<Seo
+				canonical="https://samneale.dev/projects"
+				title="Projects"
+				description="Discover Sam Neale's projects, showcasing his work with React, TypeScript, and more. Explore live demos and GitHub repositories."
+			/>
 			<Navbar />
 
 			<div className="hero bg-base-300 min-h-[30vh]">

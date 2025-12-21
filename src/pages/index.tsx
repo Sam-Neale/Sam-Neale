@@ -113,6 +113,7 @@ import plane4 from "@/images/flying/plane4.jpeg";
 import plane5 from "@/images/flying/plane5.jpeg";
 import plane6 from "@/images/flying/plane6.jpeg";
 import plane7 from "@/images/flying/plane7.jpeg";
+import Seo from "@/components/Seo";
 
 const PLANE_IMAGES = [plane1, plane2, plane3, plane4, plane5, plane6, plane7];
 
@@ -458,6 +459,7 @@ export default function Home() {
 
 	return (
 		<>
+			<Seo canonical="https://samneale.dev" />
 			<div className="flex flex-col min-h-screen">
 				<Navbar />
 				<div className="hero bg-base-200 text-base-content grow">

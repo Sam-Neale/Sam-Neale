@@ -9,10 +9,16 @@ import Captured3 from "@/images/captured/pic3.jpg";
 import Captured4 from "@/images/captured/pic4.jpg";
 import Captured5 from "@/images/captured/pic5.jpg";
 import Captured6 from "@/images/captured/pic6.jpg";
+import Seo from "@/components/Seo";
 
 export default function Captured() {
 	return (
 		<>
+			<Seo
+				canonical="https://samneale.dev/captured"
+				title="Captured"
+				description="Explore Sam Neale's photography side project, Captured. A collection of landscapes, travel, and quiet details from around the world."
+			/>
 			<Navbar />
 
 			{/* Hero */}

@@ -9,10 +9,10 @@ Most of my work sits at the intersection of **React, TypeScript, Node**, and car
 
 ## What I’m working on
 
-- 🧩 **Practical web tools** — things I actually want to use
+- 🧩 **Practical web tools**, things I actually want to use
 - 🧠 Learning how to design systems that scale _without_ getting bloated
 - 🎨 UI that feels calm, intentional, and human
-- 📷 **Captured** — my photography side project
+- 📷 **Captured**, my photography side project
 
 You can see more context (and fewer GitHub stats) on my site:  
 👉 **https://samneale.dev**
