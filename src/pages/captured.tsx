@@ -30,7 +30,7 @@ export default function Captured() {
 
 					<div className="mt-8 flex flex-wrap justify-center gap-4">
 						<a
-							href="https://www.flickr.com/yourusername"
+							href="https://www.flickr.com/sam_neale"
 							target="_blank"
 							rel="noreferrer"
 							className="btn btn-ghost"
@@ -101,7 +101,7 @@ export default function Captured() {
 
 					<div className="mt-12 text-center">
 						<a
-							href="https://www.flickr.com/yourusername"
+							href="https://www.flickr.com/sam_neale"
 							target="_blank"
 							rel="noreferrer"
 							className="btn btn-outline"

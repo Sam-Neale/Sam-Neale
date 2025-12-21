@@ -1,4 +1,4 @@
-# Sam Neale
+# 👋 Hi! I'm Sam Neale.
 
 > Building thoughtful software, one small system at a time.
 
@@ -19,6 +19,12 @@ You can see more context (and fewer GitHub stats) on my site:
 
 ---
 
+## Github Stats
+
+![Sam Neale's GitHub stats](https://github-readme-stats.vercel.app/api?username=sam-neale&show_icons=true&theme=radical)
+
+---
+
 ## Current stack
 
 **Languages**
@@ -26,6 +32,8 @@ You can see more context (and fewer GitHub stats) on my site:
 - TypeScript, JavaScript
 - Swift (iOS / macOS)
 - HTML, CSS, Markdown
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sam-neale&layout=compact&theme=radical)
 
 **Frameworks & tooling**
 
@@ -46,39 +54,26 @@ You can see more context (and fewer GitHub stats) on my site:
 
 > A small sample — most repos are experiments or WIP.
 
-- **PayCheck**  
+- **React Loader Continued**  
   A pay-comparison tool that models enterprise agreements vs awards in a clear, auditable way.  
-  _Next.js · TypeScript · Tailwind_
-
-- **GWU Site Rebuild**  
-  A fast, static rebuild focused on accessibility, SEO, and maintainability.  
-  _Next.js · SSG · DaisyUI_
-
-- **Realtime Chat Demo**  
-  A lightweight Socket.io playground for testing real-time features.  
-  _Node.js · Express · Socket.io_
+  _React · TypeScript_
+  https://github.com/Sam-Neale/react-loader-continued
 
 ---
 
 ## Outside of code
 
 - ✈️ Aviation student (and occasional flight nerd)
-- 🚶 Long walks, quiet thinking
-- 📷 Photography & noticing small details
-- ☕ Strong opinions about UI spacing
+- 🚶 Running, long walks, quiet thinking
+- 📷 Photography
 
 ---
 
 ## Find me elsewhere
 
 - 🌐 Website: **https://samneale.dev**
-- 📷 Flickr: **https://flickr.com/yourusername**
-- 🦋 Bluesky: **https://bsky.app/profile/yourhandle**
+- 📷 Flickr: **https://flickr.com/Sam_Neale**
+- 🦋 Bluesky: **https://bsky.app/profile/samneale.dev**
 - 📬 Email: **me@samneale.dev**
 
 ---
-
-<sub>
-This profile is intentionally minimal.  
-If something looks unfinished, it probably is — and that’s okay.
-</sub>
