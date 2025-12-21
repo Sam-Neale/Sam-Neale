@@ -1,8 +1,18 @@
 import { Camera, CodeSlash } from "react-bootstrap-icons";
 
+import { Fugaz_One } from "next/font/google";
+
+// If loading a variable font, you don't need to specify the font weight
+const fugaz_One = Fugaz_One({
+	subsets: ["latin"],
+	weight: ["400"],
+	variable: "--font-fugaz_One",
+	fallback: ["sf-pro-text", "sans-serif"],
+});
+
 export default function Navbar() {
 	return (
-		<div className="navbar bg-base-100 shadow-sm">
+		<div className={`navbar bg-base-100 shadow-sm ${fugaz_One.className}`}>
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -27,13 +37,13 @@ export default function Navbar() {
 						className="menu dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
 					>
 						<li>
-							<a>
+							<a href="/projects">
 								<CodeSlash />
 								Projects
 							</a>
 						</li>
 						<li>
-							<a>
+							<a href="/captured">
 								<Camera /> Captured
 							</a>
 						</li>
@@ -41,7 +51,9 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div className="navbar-center">
-				<a className="btn btn-ghost text-xl">Sam Neale</a>
+				<a className="btn btn-ghost text-xl" href="/">
+					Sam Neale
+				</a>
 			</div>
 			<div className="navbar-end"></div>
 		</div>

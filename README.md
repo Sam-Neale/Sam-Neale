@@ -1,40 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Sam Neale
 
-## Getting Started
+> Building thoughtful software, one small system at a time.
 
-First, run the development server:
+I’m a developer based in Australia with a focus on **clean web apps**, **good UI**, and **tools that solve real problems**.
+Most of my work sits at the intersection of **React, TypeScript, Node**, and careful design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I’m working on
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- 🧩 **Practical web tools** — things I actually want to use
+- 🧠 Learning how to design systems that scale _without_ getting bloated
+- 🎨 UI that feels calm, intentional, and human
+- 📷 **Captured** — my photography side project
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+You can see more context (and fewer GitHub stats) on my site:  
+👉 **https://samneale.dev**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Current stack
 
-## Learn More
+**Languages**
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript, JavaScript
+- Swift (iOS / macOS)
+- HTML, CSS, Markdown
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+**Frameworks & tooling**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- React, Next.js
+- Node.js, Express
+- Tailwind CSS, DaisyUI
+- Prisma, Sequelize
+- Socket.io
 
-## Deploy on Vercel
+**Platforms**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- macOS, iOS, Linux
+- GitHub Pages, DigitalOcean, Firebase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+## Selected projects
+
+> A small sample — most repos are experiments or WIP.
+
+- **PayCheck**  
+  A pay-comparison tool that models enterprise agreements vs awards in a clear, auditable way.  
+  _Next.js · TypeScript · Tailwind_
+
+- **GWU Site Rebuild**  
+  A fast, static rebuild focused on accessibility, SEO, and maintainability.  
+  _Next.js · SSG · DaisyUI_
+
+- **Realtime Chat Demo**  
+  A lightweight Socket.io playground for testing real-time features.  
+  _Node.js · Express · Socket.io_
+
+---
+
+## Outside of code
+
+- ✈️ Aviation student (and occasional flight nerd)
+- 🚶 Long walks, quiet thinking
+- 📷 Photography & noticing small details
+- ☕ Strong opinions about UI spacing
+
+---
+
+## Find me elsewhere
+
+- 🌐 Website: **https://samneale.dev**
+- 📷 Flickr: **https://flickr.com/yourusername**
+- 🦋 Bluesky: **https://bsky.app/profile/yourhandle**
+- 📬 Email: **me@samneale.dev**
+
+---
+
+<sub>
+This profile is intentionally minimal.  
+If something looks unfinished, it probably is — and that’s okay.
+</sub>
