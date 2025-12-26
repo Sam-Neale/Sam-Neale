@@ -538,7 +538,7 @@ export default function Home() {
 							<div className="sticky top-20">
 								<div className="flex flex-row items-center gap-5">
 									<div className="flex flex-col mt-auto">
-										<div className="flex flex-row gap-3">
+										<div className="flex flex-row gap-3 mb-3">
 											<a
 												href="https://github.com/sam-neale"
 												target="_blank"
